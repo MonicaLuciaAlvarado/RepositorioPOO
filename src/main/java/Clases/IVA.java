@@ -42,5 +42,10 @@ public class IVA {
 
     public void setPeriodoIVA(Periodo periodoIVA) {
         this.periodoIVA = periodoIVA;
-    }   
+    }
+    
+    @Override
+    public String toString(){       
+      return "" + this.getValorIva();
+    } 
 }

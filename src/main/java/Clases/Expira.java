@@ -28,4 +28,9 @@ public class Expira { //Clase Expira
     public void setExpiracion(Date expiracion) {
         this.expiracion = expiracion;
     }
+    
+    @Override
+    public String toString(){       
+      return "" + this.getExpiracion();
+    } 
 }

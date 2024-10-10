@@ -41,4 +41,10 @@ public class Periodo { //Clase Periodo
         this.fechaFinal = fechaFinal;
     }
     
+    @Override
+    public String toString(){       
+      return "" + this.getFechaInicial() + " " + this.getFechaFinal();
+    } 
+    
+    
 }

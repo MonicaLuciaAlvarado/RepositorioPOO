@@ -107,4 +107,8 @@ public class Producto {
         this.expiracion = expiracion;
     }
     
+    @Override
+    public String toString(){       
+      return "" + this.getIdProducto()+ "  " + this.getNombreProducto() + "  ";
+    } 
 }
